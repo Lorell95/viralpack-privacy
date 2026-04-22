@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supprimer mon compte — ViralPack</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f0f1a;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: #1a1a2e;
+      border: 1px solid #ff4444;
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+    .icon { font-size: 48px; margin-bottom: 16px; }
+    h1 { font-size: 24px; margin-bottom: 8px; color: #ff4444; }
+    p { color: #aaa; line-height: 1.6; margin-bottom: 20px; font-size: 15px; }
+    .warning {
+      background: rgba(255,68,68,0.1);
+      border: 1px solid rgba(255,68,68,0.3);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 24px;
+      text-align: left;
+      font-size: 14px;
+      color: #ffaaaa;
+    }
+    .warning ul { margin-left: 16px; margin-top: 8px; }
+    .warning li { margin-bottom: 4px; }
+    .email-box {
+      background: #0f0f1a;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 24px;
+    }
+    .email-box p { color: #aaa; font-size: 13px; margin-bottom: 8px; }
+    .email-box a {
+      color: #a855f7;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .email-box a:hover { text-decoration: underline; }
+    .btn {
+      display: inline-block;
+      background: #ff4444;
+      color: #fff;
+      padding: 14px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #cc0000; }
+    .footer { margin-top: 24px; font-size: 12px; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">🗑️</div>
+    <h1>Supprimer mon compte</h1>
+    <p>Vous souhaitez supprimer votre compte ViralPack et toutes les données associées.</p>
+
+    <div class="warning">
+      <strong>⚠️ Cette action est irréversible :</strong>
+      <ul>
+        <li>Votre compte sera définitivement supprimé</li>
+        <li>Vos crédits seront perdus</li>
+        <li>Votre historique de contenu sera effacé</li>
+        <li>Vos données personnelles seront supprimées</li>
+      </ul>
+    </div>
+
+    <div class="email-box">
+      <p>Pour demander la suppression, envoyez un email à :</p>
+      <a href="mailto:support@viralpack.app?subject=Suppression de compte&body=Bonjour, je souhaite supprimer mon compte ViralPack ainsi que toutes mes données personnelles. Email du compte : ">
+        support@viralpack.app
+      </a>
+    </div>
+
+    <a class="btn" href="mailto:support@viralpack.app?subject=Suppression de compte&body=Bonjour, je souhaite supprimer mon compte ViralPack ainsi que toutes mes données personnelles. Email du compte : ">
+      Demander la suppression
+    </a>
+
+    <div class="footer">
+      Nous traiterons votre demande dans un délai de 30 jours.<br>
+      © 2025 ViralPack — Tous droits réservés
+    </div>
+  </div>
+</body>
+</html>
